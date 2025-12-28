@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Age Calulator</h1>
+    <p class="info">
+        This age calculator uses the current date provided by the Luxon time library to ensure accurate and consistent
+        age calculation based on today’s real-world date.
+    </p>
+
+    <input type="date" id="dob"><br>
+    <button onclick="calculateAge()">Calculate Age</button><br>
+    <h2 id="CurrentDate"></h2>
+    <p id="Result"></p>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
